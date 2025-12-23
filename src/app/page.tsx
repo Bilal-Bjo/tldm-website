@@ -249,22 +249,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Logos / Trust */}
-      <section className="relative py-16 border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 lg:px-12">
-          <p className="text-center text-sm text-white/30 mb-8">Works with any meeting platform</p>
-          <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-16 text-white/20">
-            <span className="text-lg font-semibold">Zoom</span>
-            <span className="text-lg font-semibold">Google Meet</span>
-            <span className="text-lg font-semibold">Microsoft Teams</span>
-            <span className="text-lg font-semibold">Slack Huddles</span>
-            <span className="text-lg font-semibold">Discord</span>
-          </div>
-        </div>
-      </section>
-
       {/* Features Section */}
-      <section id="features" className="relative py-32">
+      <section id="features" className="relative py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-6 lg:px-12">
           <div className="text-center mb-20">
             <p className="text-[#5b7fff] text-sm font-medium tracking-wide uppercase mb-4">Features</p>
