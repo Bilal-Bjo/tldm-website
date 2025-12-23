@@ -348,7 +348,7 @@ export default function Home() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://github.com/Bilal-Bjo/meeting-assistant/releases/latest/download/TLDM-1.0.3-arm64.dmg"
+                    href="https://github.com/Bilal-Bjo/meeting-assistant/releases/latest/download/TLDM-1.0.4-arm64.dmg"
                     className="group flex items-center gap-4 h-16 px-6 rounded-2xl transition-all hover:scale-105"
                     style={{ background: 'rgba(255, 255, 255, 0.05)', border: '1px solid rgba(255, 255, 255, 0.1)' }}
                   >
@@ -363,7 +363,7 @@ export default function Home() {
                   </a>
 
                   <a
-                    href="https://github.com/Bilal-Bjo/meeting-assistant/releases/latest/download/TLDM.Setup.1.0.3.exe"
+                    href="https://github.com/Bilal-Bjo/meeting-assistant/releases/latest/download/TLDM.Setup.1.0.4.exe"
                     className="group flex items-center gap-4 h-16 px-6 rounded-2xl transition-all hover:scale-105"
                     style={{ background: 'rgba(255, 255, 255, 0.05)', border: '1px solid rgba(255, 255, 255, 0.1)' }}
                   >
@@ -379,7 +379,7 @@ export default function Home() {
                 </div>
 
                 <p className="mt-6 text-sm text-white/30">
-                  Version 1.0.3 · Requires OpenAI API key
+                  Version 1.0.4 · Requires OpenAI API key
                 </p>
               </div>
 
