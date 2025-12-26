@@ -62,7 +62,7 @@ export default function Privacy() {
 
               <h3 className="text-lg font-medium mb-2 text-white/90">Meeting Data</h3>
               <p className="text-white/60 leading-relaxed mb-4">
-                We process audio recordings to generate transcriptions, summaries, and action items. On desktop, recordings are stored locally on your device. On mobile, meeting data is stored securely in our cloud infrastructure.
+                We process audio recordings to generate transcriptions, summaries, and action items. Meeting data (transcripts, summaries, action items) is stored securely in our cloud infrastructure powered by Supabase.
               </p>
 
               <h3 className="text-lg font-medium mb-2 text-white/90">Usage Data</h3>
@@ -100,8 +100,7 @@ export default function Privacy() {
               </p>
               <ul className="list-disc list-inside text-white/60 space-y-2">
                 <li>All data is encrypted in transit using TLS</li>
-                <li>Cloud data is encrypted at rest</li>
-                <li>Desktop app stores data locally on your device</li>
+                <li>Cloud data is encrypted at rest using Supabase's security infrastructure</li>
                 <li>Your OpenAI API key (if used) is stored securely on your device only</li>
               </ul>
             </section>
