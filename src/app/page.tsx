@@ -246,7 +246,7 @@ export default function Home() {
                 period: "/month",
                 description: "For power users",
                 includes: "Everything in Free, plus:",
-                features: ["10 hours of recordings", "No per-meeting limits", "Cloud sync", "Priority support"],
+                features: ["8 hours of recordings", "No per-meeting limits", "Cloud sync", "Priority support"],
                 cta: "Go Pro",
                 featured: true,
                 billingNote: billingPeriod === 'yearly' ? "Billed yearly" : undefined
